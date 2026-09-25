@@ -9,9 +9,9 @@ import java.util.concurrent.atomic.AtomicInteger;
 
             Runnable task = () -> {
 
-                for (int i = 0; i < 1000; i++) {
+//                for (int i = 0; i < 1000; i++) {
                     counter.incrementAndGet();
-                }
+//                }
             };
 
             Thread t1 = new Thread(task);
